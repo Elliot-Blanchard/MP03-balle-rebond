@@ -19,7 +19,7 @@ void setup() {
   frameRate(60); // on définit une vitesse fixe pour la simulation
 }
 void mousePressed() { //on clique pour lancer la balle
-  if (mouseClick == false){ // on vérifie si la balla a  déjà été lancée
+  if (mouseClick == false){ // on vérifie si la balle a  déjà été lancée
   vitesseX = mouseX / 20;  //Les coordonnées de la souris au moment du clic sont utilisées pour définir la vitesse de départ de la balle pour permettre différents lancers
   vitesseY = -(height - mouseY) / 20;
   mouseClick = true; // on modifié une variable booléenne pour dire que la balle a été lancée
